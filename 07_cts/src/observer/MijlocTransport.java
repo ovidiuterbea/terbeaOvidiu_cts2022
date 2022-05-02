@@ -9,7 +9,7 @@ public class MijlocTransport {
 	
 	public MijlocTransport(int nrLinie) {
 		super();
-		this.calatori = new ArrayList();
+		this.calatori = new ArrayList<ICalator>();
 		this.nrLinie = nrLinie;
 	}
 	
